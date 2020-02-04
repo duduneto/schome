@@ -3,4 +3,4 @@ This is a model design. It is only Styled application without any functionalitie
 
 ## This is a short example
 
-![](readme/example.gif)
+![](readme/example.gif width=200)
