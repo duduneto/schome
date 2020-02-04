@@ -3,4 +3,4 @@ This is a model design. It is only Styled application without any functionalitie
 
 ## This is a short example
 
-<img src="readme/example.gif" width="200" height="auto" />
+<img src="readme/example.gif" width="300" height="auto" />
