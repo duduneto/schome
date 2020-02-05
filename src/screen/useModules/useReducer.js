@@ -13,8 +13,8 @@ export default function UseReducer() {
   // ------------------------------
 
   const reducers = useSelector((state) =>state);
-
-  return reducers;
+  console.log(reducers)
+  return {...reducers};
 
   // ------------------------------
   // #endregion
