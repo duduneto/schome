@@ -12,6 +12,7 @@
   "dependencies": {
     "@material-ui/core": "^4.8.3",
     "@material-ui/icons": "^4.5.1",
+    "@react-native-community/blur": "^3.4.1",
     "react": "16.9.0",
     "react-native": "0.61.4",
     "react-native-linear-gradient": "^2.5.6",
