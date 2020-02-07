@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { ImageBackground, View, TouchableOpacity, Text, Dimensions, TextInput } from 'react-native';
+import { ImageBackground, View, TouchableOpacity, Text, Dimensions, TextInput, findNodeHandle } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import { useStyles, UseLoader, useChangeRd, useReducer } from './useModules';
@@ -9,7 +9,7 @@ const { width: screenWidth } = Dimensions.get('window');
 
 export default function Sc00(props) {
   const callChangeRd = useChangeRd();
-  const { rdAuthUser } = useReducer();
+  const { rdAuthUser } = useReducer()
 
   const [values, setValues] = useState({});
   const changeState = (name, value) => {
@@ -27,7 +27,8 @@ export default function Sc00(props) {
     }, 1000)
   }
 
-  let _backgroundImage = require('../images/signin-background.jpeg')
+  
+
   return (
     <>
       {
@@ -38,7 +39,7 @@ export default function Sc00(props) {
               flex: 1,
               overflow: 'hidden'
             }}
-            source={{ uri: 'https://source.unsplash.com/collection/landscape12/1300x800' }}
+            source={{ uri: 'https://images.unsplash.com/photo-1517315003714-a071486bd9ea?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNDQ0MH0' }}
           >
             <View style={{ flex: 1 }}>
               <View style={{

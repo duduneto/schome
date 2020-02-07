@@ -32,7 +32,7 @@ export default function Cp00(compProps) {
             <DrawerItems {...props} />
           </ScrollView>
           <TouchableOpacity style={{backgroundColor: '#e6e6e6', height: 50, flexDirection: 'column', justifyContent: 'center', paddingLeft: 18}} 
-          onPress={() => {console.log(Actions); callChangeRd({reducerName: 'rdAuthUser', reducerValue: false}) }}>
+          onPress={() => {console.log(Actions); callChangeRd({reducerName: 'rdAuthUser', reducerValue: false}); Actions.jump('signin') }}>
             <Text style={{color: '#736f94', fontFamily: 'Antipasto Pro', fontSize: 17}}>Logout</Text>
           </TouchableOpacity>
         </View>
@@ -44,6 +44,7 @@ export default function Cp00(compProps) {
     Home: Sc02,
     Teste: Sc03
   }, {
+    
       contentComponent: CustomDrawerComponent,
       contentOptions: {
         activeTintColor: '#fff',
